@@ -17,7 +17,7 @@ Passos previstos para o desenvolvimento do projeto:
 
 ## 💻 Projeto
 
-O Calendário da Copa é uma projeto que mostra os jogos da Copa de 2022.
+Gerador de Senhas Aleatórias com HTML, CSS, JavaScript.
 
 
 ##
