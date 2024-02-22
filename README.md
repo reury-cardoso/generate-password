@@ -2,7 +2,7 @@
 
 ## 🚀 Tarefas do Projeto:
 
-Passo previsto para o desenvolvimento do projeto:
+Passos previstos para o desenvolvimento do projeto:
 
 - [x] Criar lógica de geração da senha com JavaScript
 - [x] Construir estrutura front-end com HTML
