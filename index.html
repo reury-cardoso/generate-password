@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,85 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header id="header">
+    <span class="name">GenPASS</span>
+    <nav id="menu">
+      <div class="social-icons">
+        icons
+        icons
+        icons
+      </div>
+      <ul class="menu-items">
+        <li>HOME</li>
+        <li>SOBRE</li>
+        <li>CONTATO</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="main">
+      <div class="initial-text">
+        <span>Ciphery</span>
+        <p>Desbloqueie seu mundo com senhas seguras!</p>
+      </div>
+      <div class="icons">
+        icons
+        icons
+      </div>
+    </div>
+
+    <div class="passwords">
+      <div class="passwords-standard">
+        <span>Senha padrão</span>
+        <div class="field">
+          <input id="generated-password" type="text" placeholder="32tqk&fa4@4z%1&L%d">
+          <button id="copy"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><rect x="128" y="128" width="336" height="336" rx="57" ry="57" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M383.5 128l.5-24a56.16 56.16 0 00-56-56H112a64.19 64.19 0 00-64 64v216a56.16 56.16 0 0056 56h24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></button>
+          <button id="get-password">Gerar</button>
+        </div>
+        <div class="specification">
+          <div class="characters">
+            <span>Características</span>
+            <div class="butoes">
+              <button id="upperCase">ABC</button>
+              <button id="lowerCase">abc</button>
+              <button id="numbers">123</button>
+              <button id="characters">!#@</button>
+            </div>
+          </div>
+          <div class="length">
+            <span>Tamanho</span>
+            <input id="size" type="number">
+          </div>
+        </div>
+      </div>
+      <div class="historic">
+        <span>Historico</span>
+        <div class="previous">
+          <span>
+            <input type="text" placeholder="32tqk&fa4@4z%1&L%d">
+            <button id="copy"></button>
+          </span>
+          <span>
+            <input type="text" placeholder="32tqk&fa4@4z%1&L%d">
+            <button id="copy"></button>
+          </span>
+          <span>
+            <input type="text" placeholder="32tqk&fa4@4z%1&L%d">
+            <button id="copy"></button>
+          </span>
+          <span>
+            <input type="text" placeholder="32tqk&fa4@4z%1&L%d">
+            <button id="copy"></button>
+          </span>
+          <span>
+            <input type="text" placeholder="32tqk&fa4@4z%1&L%d">
+            <button id="copy"></button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
