@@ -279,6 +279,12 @@ input[type=number] {
       padding: 12px;
       background-color: #E4E4E7;
       border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    button:hover{
+      transform: scale(1.06);
     }
   }
 
