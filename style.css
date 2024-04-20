@@ -9,6 +9,15 @@ body{
   font-family: "Chivo", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color:#000000; 
+}
+
+a:hover {
+  cursor:pointer;  
+}
+
 input:focus {
     outline: 0;
 }

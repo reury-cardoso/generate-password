@@ -9,8 +9,8 @@ Passos previstos para o desenvolvimento do projeto:
 - [x] Fazer avaliação e implementação de nomes de IDs e classes
 - [x] Estilizar com CSS conforme layout
 - [x] Implementar lógica entre HTML e JS
-- [ ] Implementar lógica de funcionamento da interação
-- [ ] Resolver bugs caso apareçam
+- [x] Implementar lógica de funcionamento da interação
+- [x] Resolver bugs caso apareçam
 - [ ] Concluir o projeto
 ...
 ---

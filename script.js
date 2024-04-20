@@ -195,5 +195,11 @@ document.getElementById("get-password").addEventListener("click", function () {
     document.getElementById("size").value == ""
       ? 8
       : document.getElementById("size").value;
-  generatPassword(Number(size));
+
+  if(+size < 4){
+    checkErrorFeature(true, "Deve conter 4 ou mais caracteres");
+  }else{
+    generatPassword(Number(size));
+  }
+  
 });
